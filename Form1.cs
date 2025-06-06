@@ -52,8 +52,8 @@ namespace Typing_Death
             label4.BackColor = Color.Green;
             label5.BackColor = Color.Green;
             label6.BackColor = Color.Red;
-            label7.BackColor = Color.Green;
-            label8.BackColor = Color.Green;
+            label7.BackColor = Color.Orange;
+            label8.BackColor = Color.Pink;
             label9.BackColor = Color.Green; 
             label10.BackColor = Color.Green;
 
@@ -62,14 +62,14 @@ namespace Typing_Death
             label2.ForeColor = Color.Red;
             label3.ForeColor = Color.Green;
             label4.ForeColor = Color.Violet;
-            //label5.ForeColor = Color.Green;
-            //label6.ForeColor = Color.Green;
-            //label7.ForeColor = Color.Green;
-            //label8.ForeColor = Color.Green;
-            //label9.ForeColor = Color.Green;
-            //label10.ForeColor = Color.Green;    
+            label5.ForeColor = Color.White;
+            label6.ForeColor = Color.Blue;
+            label7.ForeColor = Color.Green;
+            label8.ForeColor = Color.Blue;
+            label9.ForeColor = Color.Yellow;
+            label10.ForeColor = Color.Blue;
 
-            
+
             // Random para generar distintas alturas de spawn
             Random rng = new Random();
 
@@ -95,7 +95,7 @@ namespace Typing_Death
             Label etiquetaActual = etiquetas[0];
             if (etiquetaActual != null)
             {
-                etiquetaActual.Left -= 25; // Velocidad hacia la Izq
+                etiquetaActual.Left -= 28; // Velocidad hacia la Izq
 
                 if (etiquetaActual.Right <= 0) // Si llega al borde Izq, ya no se ve
                 {
